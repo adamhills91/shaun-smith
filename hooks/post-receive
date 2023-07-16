@@ -1,0 +1,4 @@
+#!/bin/sh
+GIT_WORK_TREE=/home/adamhills91/carpetvinylspecialist.co.uk/wp-content/themes/shaun-smith 
+git checkout -f
+
