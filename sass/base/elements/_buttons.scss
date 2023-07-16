@@ -1,0 +1,36 @@
+.btn,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  border-color: $color__border-button;
+  background: $color__yellow;
+  color: $color__text-main;
+  line-height: 1;
+  padding: 1em 2em;
+  width: auto;
+  align-self: flex-start;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color__text-main;
+  transition: background 0.2s, color 0.2s;
+  font-family: $font__copy;
+  letter-spacing: 0.02em;
+  text-align: center;
+  display: inline-block;
+
+  &:visited {
+    color: $color__text-main;
+  }
+
+  &:hover {
+    border-color: $color__border-button-hover;
+    background: $color__blue;
+    color: white;
+  }
+
+  &:active,
+  &:focus {
+    border-color: $color__border-button-focus;
+  }
+}

@@ -1,0 +1,14 @@
+.slider {
+  margin-top: 100px;
+
+  .swiper {
+    height: 400px;
+    .swiper-wrapper {
+      // width: 50%;
+      transition-timing-function: linear;
+
+      .swiper-slide {
+      }
+    }
+  }
+}
