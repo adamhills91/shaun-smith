@@ -38,17 +38,17 @@ h4 {
 
 @media (min-width: $medium-breakpoint) {
   h1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   h2 {
-    font-size: 60px;
+    font-size: 50px;
     max-width: 600px;
   }
 }
 
 @media (min-width: $large-breakpoint) {
   h1 {
-    font-size: 100px;
+    font-size: 70px;
   }
 }

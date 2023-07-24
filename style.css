@@ -514,17 +514,17 @@ h4 {
 
 @media (min-width: 870px) {
 	h1 {
-		font-size: 70px;
+		font-size: 60px;
 	}
 	h2 {
-		font-size: 60px;
+		font-size: 50px;
 		max-width: 600px;
 	}
 }
 
 @media (min-width: 1280px) {
 	h1 {
-		font-size: 100px;
+		font-size: 70px;
 	}
 }
 
@@ -1093,6 +1093,13 @@ textarea {
 	justify-content: center;
 }
 
+#hero .hero__content h1 {
+	background: #a57b46;
+	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 @media (min-width: 870px) {
 	#hero {
 		background-size: 100%;
@@ -1102,6 +1109,9 @@ textarea {
 @media (min-width: 1280px) {
 	#hero {
 		height: 60svh;
+	}
+	#hero h1 {
+		margin-top: 1em;
 	}
 }
 
@@ -1482,10 +1492,11 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 #services .services__grid .service__card a {
 	color: unset;
 	text-decoration: none;
+	transition: opacity 0.3s;
 }
 
 #services .services__grid .service__card a:hover {
-	text-decoration: underline;
+	opacity: 0.5;
 }
 
 #services .services__grid .service__card .service__card__img {
@@ -1497,7 +1508,7 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 }
 
 #services .services__grid .service__card .service__card__img:hover + h4 {
-	text-decoration: underline;
+	opacity: 0.5;
 }
 
 #services .services__grid .service__card .service__card__img img {
@@ -1585,7 +1596,10 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 }
 
 #about-us .right .right__content h2 {
-	color: #faf2a0;
+	background: #a57b46;
+	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-size: 40px;
 }
 
@@ -1624,6 +1638,8 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 	}
 	#about-us .right .right__content h2 {
 		font-size: 40px;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	#about-us .right p,
 	#about-us .right .btn {
@@ -1750,7 +1766,12 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 	font-size: 18px;
 	color: #faf2a0;
 	line-height: 1;
+	height: 1.2em;
 	margin-bottom: 25px;
+	background: #a57b46;
+	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .site-footer .footer-main .container .nav ul {
@@ -1768,11 +1789,11 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 	color: #fff;
 	text-decoration: none;
 	font-weight: 600;
+	transition: color 0.3s;
 }
 
 .site-footer .footer-main .container .nav ul li a:hover {
 	color: #087ca7;
-	text-decoration: underline;
 }
 
 .site-footer .footer-main .container .nav ul li.light:nth-last-child(2) {
@@ -1852,13 +1873,13 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-email a {
 	text-decoration: none;
 	color: #fff;
+	transition: color 0.3s;
 }
 
 .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-address a:hover,
 .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-phone a:hover,
 .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-email a:hover {
 	color: #087ca7;
-	text-decoration: underline;
 }
 
 .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-address {
@@ -2016,6 +2037,7 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 	box-shadow: none;
 	width: 100%;
 	max-width: 500px;
+	transition: background 0.3s, color 0.3s;
 }
 
 #contact-form .container .contact-form .left .wpforms-container .wpforms-submit-container button[type="submit"]:hover {
@@ -2045,10 +2067,10 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 #contact-form .container .contact-form .right .contact-details a {
 	text-decoration: none;
 	color: inherit;
+	transition: color 0.3s;
 }
 
 #contact-form .container .contact-form .right .contact-details a:hover {
-	text-decoration: underline;
 	color: #087ca7;
 }
 
@@ -2214,6 +2236,10 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 	color: #faf2a0;
 	margin-bottom: 50px;
 	font-weight: 600;
+	background: #a57b46;
+	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #service-grid .row .left img,
@@ -2255,10 +2281,11 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 #service-grid .row.contact-bar a {
 	color: #087ca7;
 	text-decoration: none;
+	transition: opacity 0.3s;
 }
 
 #service-grid .row.contact-bar a:hover {
-	text-decoration: underline;
+	opacity: 0.5;
 }
 
 @media (min-width: 870px) {

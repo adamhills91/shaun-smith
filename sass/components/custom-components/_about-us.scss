@@ -38,7 +38,15 @@
       flex-direction: column;
 
       h2 {
-        color: $color__yellow;
+        background: #a57b46;
+        background: linear-gradient(
+          to right,
+          #a57b46 0%,
+          #f7f0ad 50%,
+          #a57b46 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
         font-size: 40px;
       }
     }
@@ -78,6 +86,8 @@
       .right__content {
         h2 {
           font-size: 40px;
+          margin-left: 0;
+          margin-right: 0;
         }
       }
       p,

@@ -7,7 +7,7 @@ $hero = $fields['hero'];
 
 <section id="hero" <?php if (is_front_page()) {
                       echo 'class="home-page"';
-                    } ?> style="background-image: url(<?= $hero['bg_img']['url']; ?>);">
+                    } ?> style="background-image: url(<?= $hero['bg_img']['url']; ?>); background-position: 50% <?= $hero['background_vertical_position'] ?>%">
   <div class="overlay">
   </div>
   <div class="gradient"></div>

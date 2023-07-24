@@ -63,6 +63,9 @@
               box-shadow: none;
               width: 100%;
               max-width: 500px;
+              transition:
+                background 0.3s,
+                color 0.3s;
 
               &:hover {
                 background: $color__blue;
@@ -92,9 +95,8 @@
           a {
             text-decoration: none;
             color: inherit;
-
+            transition: color 0.3s;
             &:hover {
-              text-decoration: underline;
               color: $color__blue;
             }
           }
