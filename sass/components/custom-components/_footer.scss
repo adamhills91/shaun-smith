@@ -95,6 +95,7 @@
       }
 
       .contact-details {
+        // justify-self: ;
         .Contact_Information_Widget {
           margin: 0;
           .contact_information {
@@ -109,6 +110,8 @@
               display: flex;
               flex-grow: 1;
               gap: 25px;
+              justify-content: center;
+              margin-left: -3.5em;
 
               &::before {
                 position: relative;
@@ -196,6 +199,19 @@
         .contact-details,
         .opening-times {
           text-align: left;
+        }
+
+        .contact-details {
+          .Contact_Information_Widget {
+            .contact_information {
+              .item-ci-address,
+              .item-ci-phone,
+              .item-ci-email {
+                justify-content: flex-start;
+                margin-left: 0;
+              }
+            }
+          }
         }
       }
     }

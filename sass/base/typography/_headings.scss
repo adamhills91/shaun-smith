@@ -12,12 +12,12 @@ h1 {
   text-transform: uppercase;
   // color: $color__text-white;
   letter-spacing: 0.035em;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 h2 {
   color: $color__navy;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 50px;
   max-width: 370px;
   margin-right: auto;
@@ -37,12 +37,18 @@ h4 {
 }
 
 @media (min-width: $medium-breakpoint) {
+  h1 {
+    font-size: 70px;
+  }
+
   h2 {
     font-size: 60px;
-
     max-width: 600px;
   }
 }
 
 @media (min-width: $large-breakpoint) {
+  h1 {
+    font-size: 100px;
+  }
 }

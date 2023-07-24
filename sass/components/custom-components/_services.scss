@@ -1,5 +1,5 @@
 #services {
-  padding: 100px 0;
+  padding: 60px 0;
   text-align: center;
 
   p {
@@ -83,6 +83,8 @@
 
 @media (min-width: $medium-breakpoint) {
   #services {
+    padding: 80px 0;
+
     p {
       font-size: 18px;
     }
@@ -94,8 +96,11 @@
 
 @media (min-width: $large-breakpoint) {
   #services {
+    padding: 100px 0;
+
     .services__grid {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      // grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
 }

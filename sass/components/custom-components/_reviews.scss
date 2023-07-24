@@ -1,6 +1,6 @@
 #reviews {
   text-align: center;
-  padding: 100px 0;
+  padding: 60px 0;
 
   p {
     font-size: 16px;
@@ -57,6 +57,8 @@
 
 @media (min-width: $medium-breakpoint) {
   #reviews {
+    padding: 80px 0;
+
     p {
       font-size: 18px;
     }
@@ -65,6 +67,8 @@
 
 @media (min-width: $large-breakpoint) {
   #reviews {
+    padding: 100px 0;
+
     p {
       font-size: 20px;
     }
