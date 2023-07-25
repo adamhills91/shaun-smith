@@ -24,7 +24,7 @@ $hero = $fields['hero'];
 
         <!-- <img class="hero-logo" src="<?= $hero['logo']['url'] ?>" alt="<?= $hero['logo']['alt'] ?>"> -->
 
-        <!-- <?php echo wp_get_attachment_image($hero['logo']['id'], "full"); ?> -->
+        <?php echo wp_get_attachment_image($hero['logo']['id'], "full"); ?>
 
         <a href="<?= $hero['button']['link']; ?>" class="btn">
           <span?><?= $hero['button']['text']; ?></span>
