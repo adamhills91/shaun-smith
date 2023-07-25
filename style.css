@@ -1596,6 +1596,7 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 }
 
 #about-us .right .right__content h2 {
+	align-self: flex-start;
 	background: #a57b46;
 	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
 	-webkit-background-clip: text;
@@ -1763,6 +1764,7 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 .site-footer .footer-main .container .nav h3,
 .site-footer .footer-main .container .contact-details h3,
 .site-footer .footer-main .container .opening-times h3 {
+	width: fit-content;
 	font-size: 18px;
 	color: #faf2a0;
 	line-height: 1;
