@@ -2180,8 +2180,10 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 }
 
 #service-top-text p {
-	margin: 0 0 50px 0;
+	margin: 0 auto 50px auto;
 	font-size: 14px;
+	max-width: 750px;
+	text-align: center;
 }
 
 #service-top-text .btn {
@@ -2193,7 +2195,6 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 		padding: 80px 0;
 	}
 	#service-top-text p {
-		margin: 0 0 50px 0;
 		font-size: 16px;
 	}
 	#service-top-text .btn {
@@ -2206,7 +2207,6 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 		padding: 100px 0;
 	}
 	#service-top-text p {
-		margin: 0 0 50px 0;
 		font-size: 20px;
 	}
 	#service-top-text .btn {
