@@ -1422,6 +1422,7 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 		transition: opacity 0.2s, visibilty 0.2s;
 		opacity: 0;
 		visibility: hidden;
+		text-align: left;
 	}
 	header.site-header nav#site-navigation ul.sub-menu li {
 		padding: 0.5em;
@@ -2242,6 +2243,7 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	width: fit-content;
 }
 
 #service-grid .row .left img,
