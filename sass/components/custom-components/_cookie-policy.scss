@@ -9,6 +9,12 @@ main.cookie-policy {
 
   #cmplz-document {
     margin: 0 auto;
+
+    h2 {
+      color: $color__text-white;
+      margin-left: unset;
+      margin-top: 50px;
+    }
   }
 
   #cmplz-cookies-overview {
