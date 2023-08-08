@@ -105,3 +105,12 @@
     }
   }
 }
+
+main .title-container {
+  // max-width: 800px;
+  padding: 60px 0;
+  text-align: center;
+  background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

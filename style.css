@@ -1553,6 +1553,14 @@ header.site-header nav#site-navigation ul.sub-menu li.current-menu-item a {
 	}
 }
 
+main .title-container {
+	padding: 60px 0;
+	text-align: center;
+	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 #about-us {
 	display: flex;
 	min-height: 700px;
