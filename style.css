@@ -2362,8 +2362,12 @@ main .title-container {
 main.cookie-policy,
 main.privacy-policy {
 	background: #041529;
-	color: #fff;
 	padding-top: 200px;
+}
+
+main.cookie-policy *,
+main.privacy-policy * {
+	color: #fff;
 }
 
 main.cookie-policy header,

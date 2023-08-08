@@ -1,8 +1,11 @@
 main.cookie-policy,
 main.privacy-policy {
   background: $color__navy;
-  color: $color__text-white;
   padding-top: 200px;
+
+  * {
+    color: $color__text-white;
+  }
 
   header {
     text-align: center;
