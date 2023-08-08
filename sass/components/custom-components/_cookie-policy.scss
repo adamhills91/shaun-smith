@@ -24,4 +24,13 @@ main.privacy-policy {
   #cmplz-cookies-overview {
     color: $color__text-main;
   }
+
+  .section {
+    margin-bottom: 50px;
+
+    h4,
+    h5 {
+      margin: 1em 0;
+    }
+  }
 }

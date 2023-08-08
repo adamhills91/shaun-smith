@@ -604,7 +604,7 @@ hr {
 
 ul,
 ol {
-	margin: 0 0 0 3em;
+	margin: 0 0 1.5em 0;
 }
 
 ul {
@@ -2390,6 +2390,18 @@ main.privacy-policy #cmplz-document h2 {
 main.cookie-policy #cmplz-cookies-overview,
 main.privacy-policy #cmplz-cookies-overview {
 	color: #010914;
+}
+
+main.cookie-policy .section,
+main.privacy-policy .section {
+	margin-bottom: 50px;
+}
+
+main.cookie-policy .section h4,
+main.cookie-policy .section h5,
+main.privacy-policy .section h4,
+main.privacy-policy .section h5 {
+	margin: 1em 0;
 }
 
 /*--------------------------------------------------------------
