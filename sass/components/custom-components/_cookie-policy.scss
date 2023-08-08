@@ -3,11 +3,11 @@ main.cookie-policy {
   color: $color__text-white;
   padding-top: 200px;
 
-  article {
-    margin: 0 auto;
+  header {
+    text-align: center;
+  }
 
-    header {
-      text-align: center;
-    }
+  #cmplz-document {
+    margin: 0 auto;
   }
 }
