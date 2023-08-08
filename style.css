@@ -2373,6 +2373,10 @@ main.cookie-policy #cmplz-document {
 	margin: 0 auto;
 }
 
+main.cookie-policy #cmplz-cookies-overview {
+	color: #010914;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
