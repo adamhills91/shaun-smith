@@ -2365,6 +2365,14 @@ main.cookie-policy {
 	padding-top: 200px;
 }
 
+main.cookie-policy article {
+	margin: 0 auto;
+}
+
+main.cookie-policy article header {
+	text-align: center;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
