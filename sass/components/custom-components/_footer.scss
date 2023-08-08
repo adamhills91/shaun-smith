@@ -28,11 +28,11 @@
 
         h3 {
           width: fit-content;
+          margin: 0 auto 25px;
           font-size: 18px;
           color: $color__yellow;
           line-height: 1;
           height: 1.2em;
-          margin-bottom: 25px;
           background: #a57b46;
           background: linear-gradient(
             to right,
@@ -212,6 +212,11 @@
         .contact-details,
         .opening-times {
           text-align: left;
+
+          h3 {
+            margin: unset;
+            margin-bottom: 25px;
+          }
         }
 
         .contact-details {

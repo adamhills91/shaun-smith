@@ -1774,11 +1774,11 @@ main .title-container {
 .site-footer .footer-main .container .contact-details h3,
 .site-footer .footer-main .container .opening-times h3 {
 	width: fit-content;
+	margin: 0 auto 25px;
 	font-size: 18px;
 	color: #faf2a0;
 	line-height: 1;
 	height: 1.2em;
-	margin-bottom: 25px;
 	background: #a57b46;
 	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
 	-webkit-background-clip: text;
@@ -1951,6 +1951,12 @@ main .title-container {
 	.site-footer .footer-main .container .contact-details,
 	.site-footer .footer-main .container .opening-times {
 		text-align: left;
+	}
+	.site-footer .footer-main .container .nav h3,
+	.site-footer .footer-main .container .contact-details h3,
+	.site-footer .footer-main .container .opening-times h3 {
+		margin: unset;
+		margin-bottom: 25px;
 	}
 	.site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-address,
 	.site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-phone,
