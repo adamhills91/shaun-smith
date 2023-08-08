@@ -2359,27 +2359,32 @@ main .title-container {
 	transition-timing-function: linear;
 }
 
-main.cookie-policy {
+main.cookie-policy,
+main.privacy-policy {
 	background: #041529;
 	color: #fff;
 	padding-top: 200px;
 }
 
-main.cookie-policy header {
+main.cookie-policy header,
+main.privacy-policy header {
 	text-align: center;
 }
 
-main.cookie-policy #cmplz-document {
+main.cookie-policy #cmplz-document,
+main.privacy-policy #cmplz-document {
 	margin: 0 auto;
 }
 
-main.cookie-policy #cmplz-document h2 {
+main.cookie-policy #cmplz-document h2,
+main.privacy-policy #cmplz-document h2 {
 	color: #fff;
 	margin-left: unset;
 	margin-top: 50px;
 }
 
-main.cookie-policy #cmplz-cookies-overview {
+main.cookie-policy #cmplz-cookies-overview,
+main.privacy-policy #cmplz-cookies-overview {
 	color: #010914;
 }
 
