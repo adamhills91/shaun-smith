@@ -16,7 +16,7 @@
 	<div class="footer-main">
 		<div class="container">
 			<div class="footer-logo">
-				<img src="<?php echo get_template_directory_uri() ?>/assets/images/logo-no-bg.png" alt="">
+				<img src="<?php echo get_template_directory_uri() ?>/assets/images/logo-no-bg.png" alt="Shaun Smith Carpet and Vinyl Specialist Logo">
 			</div>
 			<div class="nav">
 				<?php dynamic_sidebar('footer-widget-col-one'); ?>
