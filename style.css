@@ -780,6 +780,23 @@ textarea {
 /*--------------------------------------------------------------
 # Layouts
 --------------------------------------------------------------*/
+section.error-404 {
+	background-color: #041529;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 75vh;
+	padding-top: var(--padding__site-padding);
+	color: #fff;
+	text-align: center;
+}
+
+section.error-404 h1 {
+	background: linear-gradient(to right, #a57b46 0%, #f7f0ad 50%, #a57b46 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
