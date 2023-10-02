@@ -13,7 +13,9 @@ input[type="submit"] {
   text-decoration: none;
   text-transform: uppercase;
   color: $color__text-main;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
   font-family: $font__copy;
   letter-spacing: 0.02em;
   text-align: center;

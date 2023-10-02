@@ -32,7 +32,7 @@
 	<div class="sub-footer">
 		<div class="container">
 			<p>Copyright &copy; <?php echo date("Y"); ?> Shaun Smith Carpet & Vinyl Specialist. All rights reserved.</p>
-			<p>Website created by <a href="https://adamhills.me" target="_blank">Adam</a></p>
+			<p>Website created by Adam Hills</p>
 		</div>
 	</div>
 </footer><!-- #colophon -->

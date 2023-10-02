@@ -21,7 +21,7 @@ get_header();
 
 	<?php
 	include 'components/hero.php';
-	echo '<div class="container"><div class="title-container fade-in"><h1>Shaun Smith Carpet & Vinyl Specialist</h1></div></div>';
+
 	include 'components/services.php';
 	include 'components/about_us.php';
 	include 'components/google_reviews.php';
