@@ -25,10 +25,14 @@ $info_grid = $fields['info_grid'];
   </div>
   <div class="row contact-bar">
     <div class="container">
+      <?php
+      $contact_fields = get_field('contact_form', 21);
+
+      ?>
       <?php if (get_the_title() == "Flooring Contractor") { ?>
-        <h2 class="fade-in">Need a <?php single_post_title(); ?>? <br /><br /><a href="tel:">Call today</a> or <a href="/contact">send us a message</a> to discuss!</h2>
+        <h2 class="fade-in">Need a <?php single_post_title(); ?>? <br /><br /><a href="tel:<?= $contact_fields['contact_details']['phone']; ?>">Call today</a> or <a href="/contact">send us a message</a> to discuss!</h2>
       <?php } else { ?>
-        <h2 class="fade-in">Questions about <?php single_post_title(); ?>? <br /><br /><a href="tel:">Call today</a> or <a href="/contact">send us a message</a> to discuss!</h2>
+        <h2 class="fade-in">Questions about <?php single_post_title(); ?>? <br /><br /><a href="tel:<?= $contact_fields['contact_details']['phone']; ?>">Call today</a> or <a href="/contact">send us a message</a> to discuss!</h2>
       <?php } ?>
     </div>
   </div>
