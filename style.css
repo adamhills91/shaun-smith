@@ -431,6 +431,10 @@ template {
   display: none;
 }
 
+.grecaptcha-badge {
+  display: none;
+}
+
 /* Box sizing
 --------------------------------------------- */
 /* Inherit box-sizing to more easily change it's value on a component level.
