@@ -1,0 +1,36 @@
+main.cookie-policy,
+main.privacy-policy {
+  background: $color__navy;
+  padding-top: 200px;
+
+  * {
+    color: $color__text-white !important;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  #cmplz-document {
+    margin: 0 auto;
+
+    h2 {
+      color: $color__text-white;
+      margin-left: unset;
+      margin-top: 50px;
+    }
+  }
+
+  #cmplz-cookies-overview {
+    color: $color__text-main;
+  }
+
+  .section {
+    margin-bottom: 50px;
+
+    h4,
+    h5 {
+      margin: 1em 0;
+    }
+  }
+}

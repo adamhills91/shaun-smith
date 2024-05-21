@@ -1,0 +1,11 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background: $color__background-body; // Fallback for when there is no custom background color defined.
+  font-weight: 300;
+  overflow-x: hidden;
+  font-size: 16px;
+}

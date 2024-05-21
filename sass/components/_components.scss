@@ -1,0 +1,40 @@
+/* Navigation
+--------------------------------------------- */
+@import "navigation/navigation";
+
+/* Posts and pages
+--------------------------------------------- */
+@import "content/posts-and-pages";
+
+/* Comments
+--------------------------------------------- */
+@import "comments/comments";
+
+/* Widgets
+--------------------------------------------- */
+@import "widgets/widgets";
+
+/* Media
+--------------------------------------------- */
+@import "media/media";
+
+/* Captions
+--------------------------------------------- */
+@import "media/captions";
+
+/* Galleries
+--------------------------------------------- */
+@import "media/galleries";
+
+@import "custom-components/hero";
+@import "custom-components/header";
+@import "custom-components/services";
+@import "custom-components/about-us";
+@import "custom-components/reviews";
+@import "custom-components/footer";
+@import "custom-components/contact-form";
+@import "custom-components/service-top-text";
+@import "custom-components/service-grid";
+@import "custom-components/image-slider";
+
+@import "custom-components/cookie-policy";

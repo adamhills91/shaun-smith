@@ -1,0 +1,23 @@
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+
+$small-breakpoint: 869px;
+$medium-breakpoint: 870px;
+$large-breakpoint: 1280px;
+$x-large-breakpoint: 2000px;
+
+:root {
+  --padding__site-padding: 5.1%;
+}
+
+@media (min-width: $medium-breakpoint) {
+  :root {
+    --padding__site-padding: 10%;
+  }
+}
+
+@media (min-width: $large-breakpoint) {
+  :root {
+    --padding__site-padding: 17%;
+  }
+}

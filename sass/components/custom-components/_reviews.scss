@@ -1,0 +1,76 @@
+#reviews {
+  text-align: center;
+  padding: 60px 0;
+
+  p {
+    font-size: 16px;
+    max-width: 655px;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+
+  .google-reviews {
+    margin: 75px 0;
+
+    .ti-goog {
+      .ti-widget-container {
+        .ti-reviews-container {
+          .ti-reviews-container-wrapper {
+            .ti-review-item {
+              border-radius: 0 !important;
+              .ti-inner {
+                border-radius: 0 !important;
+                border-color: $color__blue !important;
+
+                .ti-review-content {
+                  height: 17em;
+                }
+              }
+            }
+          }
+          .ti-controls {
+            top: 50%;
+
+            .ti-next,
+            .ti-prev {
+              &:hover {
+                transform: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: 600;
+    color: $color__blue;
+    font-size: 20px;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (min-width: $medium-breakpoint) {
+  #reviews {
+    padding: 80px 0;
+
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: $large-breakpoint) {
+  #reviews {
+    padding: 100px 0;
+
+    p {
+      font-size: 20px;
+    }
+  }
+}
