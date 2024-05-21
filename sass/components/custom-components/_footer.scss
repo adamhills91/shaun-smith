@@ -239,11 +239,11 @@
         }
 
         .contact-details {
-          .Contact_Information_Widget {
-            .contact_information {
-              .item-ci-address,
-              .item-ci-phone,
-              .item-ci-email {
+          .widget_contactinformation_widget {
+            .ciw_contactinformation {
+              .ciw_address,
+              .ciw_phone,
+              .ciw_email {
                 justify-content: flex-start;
                 margin-left: 0;
               }

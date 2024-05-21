@@ -1852,9 +1852,9 @@ main .title-container {
     margin: unset;
     margin-bottom: 25px;
   }
-  .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-address,
-  .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-phone,
-  .site-footer .footer-main .container .contact-details .Contact_Information_Widget .contact_information .item-ci-email {
+  .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation .ciw_address,
+  .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation .ciw_phone,
+  .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation .ciw_email {
     justify-content: flex-start;
     margin-left: 0;
   }
