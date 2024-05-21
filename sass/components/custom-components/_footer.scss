@@ -111,12 +111,13 @@
         // justify-self: ;
         .widget_contactinformation_widget {
           margin: 0;
-
           .ciw_contactinformation {
             margin: 0;
             padding: 0;
             display: flex;
             flex-direction: column;
+            align-items: center;
+            margin-left: -1.5em;
 
             .ciw_address,
             .ciw_phone,
@@ -241,6 +242,8 @@
         .contact-details {
           .widget_contactinformation_widget {
             .ciw_contactinformation {
+              align-items: flex-start;
+              margin-left: 0;
               .ciw_address,
               .ciw_phone,
               .ciw_email {

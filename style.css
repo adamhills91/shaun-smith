@@ -1741,6 +1741,8 @@ main .title-container {
   padding: 0;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-left: -1.5em;
 }
 .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation .ciw_address,
 .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation .ciw_phone,
@@ -1851,6 +1853,10 @@ main .title-container {
   .site-footer .footer-main .container .opening-times h3 {
     margin: unset;
     margin-bottom: 25px;
+  }
+  .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation {
+    align-items: flex-start;
+    margin-left: 0;
   }
   .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation .ciw_address,
   .site-footer .footer-main .container .contact-details .widget_contactinformation_widget .ciw_contactinformation .ciw_phone,
