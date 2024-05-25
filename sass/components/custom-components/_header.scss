@@ -222,6 +222,7 @@ header.site-header {
         font-weight: 200;
         transform: translateX(100%);
         transition: transform 0.4s ease-out;
+        z-index: 2;
 
         &.active {
           transform: translateX(0);

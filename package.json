@@ -22,7 +22,8 @@
     "node-sass": "^9.0.0",
     "npm-force-resolutions": "^0.0.10",
     "rtlcss": "^4.1.1",
-    "sass-loader": "^14.2.1"
+    "sass-loader": "^14.2.1",
+    "esbuild": "^0.21.3"
   },
   "rtlcssConfig": {
     "options": {
@@ -50,7 +51,6 @@
     "esbuild": "npm run esbuild-base -- --sourcemap"
   },
   "dependencies": {
-    "esbuild": "^0.21.3",
     "gsap": "^3.12.2",
     "swiper": "^11.1.3"
   },
