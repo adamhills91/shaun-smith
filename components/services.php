@@ -18,7 +18,7 @@ $services = $fields['services'];
 
           <div class="service__card">
             <div class="service__card__img">
-              <a href="<?= $service['link']; ?>"><img src="<?= $service['image']['url'] ?>" alt="<?= $service['image']['alt'] ?>"></a>
+              <a href="<?= $service['link']; ?>" aria-label="<?= $service['title'] ?>"><img src="<?= $service['image']['url'] ?>" alt="<?= $service['image']['alt'] ?>"></a>
             </div>
             <h4> <a href="<?= $service['link']; ?>"><?= $service['title'] ?></a></h4>
             <?= $service['copy']; ?>
